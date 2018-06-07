@@ -1,0 +1,29 @@
+module  Peri_MUX(
+	input 			ch_select,
+	input [15:0]	data_in1,
+	input 			data_req1,
+	input [15:0]	data_in2,
+	input 			data_req2,	
+	input 			ch_select_en,
+	output 			data_out,
+	output 			data_req_out
+	);
+
+always @ (*)
+    begin
+			if (ch_select_en)
+    	    begin
+        	    if (ch_select)
+        	    	begin
+        	    		data_out = data_in2;
+        	    		data_req_out = data_req2;
+        	    	end 
+        	   	else 
+        	   	     begin
+        	   	     	data_out = data_in1;
+        	    		data_req_out = data_req1;
+        	   	     end 
+    	 	end
+    end
+    
+endmodule

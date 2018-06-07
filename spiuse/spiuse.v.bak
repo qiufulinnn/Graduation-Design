@@ -1,0 +1,10 @@
+module (
+	input spi_sck_in,
+	input spi_mosi_in,
+	input spi_cs_in,
+	input reset_in,
+	output spi_sck_out,
+	output spi_mosi_out,
+	output spi_cs_out,
+	output reset_out
+	);

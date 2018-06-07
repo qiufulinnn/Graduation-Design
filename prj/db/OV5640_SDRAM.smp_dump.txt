@@ -1,0 +1,12 @@
+
+State Machine - |OV5640_SDRAM|cext:cext_inst|SPIslaver:SPIslaver1|txd_state
+Name txd_state.T_IDLE txd_state.T_SEND txd_state.T_START 
+txd_state.T_IDLE 0 0 0 
+txd_state.T_START 1 0 1 
+txd_state.T_SEND 1 1 0 
+
+State Machine - |OV5640_SDRAM|I2C_OV5640_Init_RGB565:u_I2C_OV5640_Init_RGB565|setup_state
+Name setup_state.00 setup_state.10 setup_state.01 
+setup_state.00 0 0 0 
+setup_state.01 1 0 1 
+setup_state.10 1 1 0 

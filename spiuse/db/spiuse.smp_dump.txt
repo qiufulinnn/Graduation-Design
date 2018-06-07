@@ -1,0 +1,6 @@
+
+State Machine - |spiuse|cext:cext_inst|SPIslaver:SPIslaver_inst|txd_state
+Name txd_state.T_IDLE txd_state.T_SEND txd_state.T_START 
+txd_state.T_IDLE 0 0 0 
+txd_state.T_START 1 0 1 
+txd_state.T_SEND 1 1 0 

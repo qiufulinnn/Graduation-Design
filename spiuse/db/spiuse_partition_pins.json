@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "spi_sck_out",
+					"strict" : false
+				},
+				{
+					"name" : "spi_mosi_out",
+					"strict" : false
+				},
+				{
+					"name" : "spi_cs_out",
+					"strict" : false
+				},
+				{
+					"name" : "reset_out",
+					"strict" : false
+				},
+				{
+					"name" : "led",
+					"strict" : false
+				},
+				{
+					"name" : "spi_sck_in",
+					"strict" : false
+				},
+				{
+					"name" : "spi_mosi_in",
+					"strict" : false
+				},
+				{
+					"name" : "spi_cs_in",
+					"strict" : false
+				},
+				{
+					"name" : "reset_in",
+					"strict" : false
+				},
+				{
+					"name" : "sclk",
+					"strict" : false
+				},
+				{
+					"name" : "s_rst_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

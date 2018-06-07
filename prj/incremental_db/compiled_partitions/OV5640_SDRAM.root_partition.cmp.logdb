@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,Peri_Camera_Sobel:Peri_Camera_Sobel_Init|lpm_mult:Mult0|mult_oct:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,Peri_Camera_Sobel:Peri_Camera_Sobel_Init|lpm_mult:Mult1|mult_oct:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,Peri_Camera_Sobel:Peri_Camera_Sobel_Init|lpm_mult:Mult1|mult_oct:auto_generated|mac_mult1,
